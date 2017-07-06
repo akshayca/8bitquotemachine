@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|VT323');
+
+h1{
+  font-family: 'Press Start 2P', cursive;
+  padding-bottom:25px;
+  text-shadow : 1px 1px #42b3f4; 
+}
+body {
+  background-color : #1fad2b;
+  padding-top : 60px;
+  padding-bottom: 20px;
+  }
+
+#quote-container {
+  background-color :#22272d;
+  min-height : 400px;
+  max-width : 80%;
+  position : relative;
+  box-shadow : 0 5px 5px 0 #000050, 0 2px 30px 0 #000021 ;
+  }
+
+#quote
+{
+  float : left ;
+  padding : 20px 10px 40px 10px ;
+  font-family: 'Press Start 2P', cursive;
+  word-spacing: 8px;
+  line-height: 45px;
+  font-size : 25px;
+  word-wrap : break-word;
+  display : inline-block;
+  word-break: keep-all;
+  color : #FFFFFF;
+  text-shadow: 0px 1px #45f442;
+}
+
+#author {
+  font-family: 'VT323', monospace;
+  font-size : 35px;
+  float : left ;
+  color : #101110;
+  text-shadow: 1px 1px #000050;
+  margin :20px 20px 0px 150px;
+ 
+  }
+
+#btn-list {
+  position :absolute ;
+  bottom: 0;
+  right : 0;
+  list-style-type : none;
+  padding : 5px 15px 5px 20px ;
+  font-family: 'Press Start 2P', cursive;
+}
+#btn-list li:not(:first-child)
+{
+  margin-right:0px;
+}
+#btn-list li{
+  color : #FFFFFF ;
+  margin : 0 15px 0 0 ;
+  float : left;
+}
+
+/*#footer-container {
+  max-width: 90%;
+}*/
+
+footer{
+  padding : 100px 0px 0px 0px;
+  display :block;
+  color : #FFFFFF;
+  text-align :center;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 5px #4099FF;
+}
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 35px;
+  color: #2E3D48;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
